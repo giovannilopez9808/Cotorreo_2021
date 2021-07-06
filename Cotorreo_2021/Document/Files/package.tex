@@ -4,6 +4,8 @@
 \usepackage{times}
 % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{booktabs}
+% Allows use colors
+\usepackage{xcolor}
 % Location of the slide background and figure files
 \graphicspath{{../Graphics/}}
 % Beamer options - do not change
@@ -14,6 +16,10 @@
 \setbeamercolor{structure}{fg=\yourowntexcol}
 % Define the color of text in the presentation
 \setbeamercolor{normal text}{fg=\yourowntexcol}
+% Numerate figures
+\setbeamertemplate{caption}[numbered]
+% Remove files icon on references
+\setbeamertemplate{bibliography item}{}
 
 %------------
 % COLORS

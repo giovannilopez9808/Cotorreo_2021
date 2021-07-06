@@ -62,7 +62,7 @@
 \newcommand{\customtextcol}[1]{#1} %text inside boxes and dots
 
 \newcommand{\slogan}[1]{\Huge \MakeUppercase{#1}} %text inside boxes and dots
-\newcommand{\fbckg}[1]{\usebackgroundtemplate{\includegraphics[width=\paperwidth]{#1}}}%frame background
+\newcommand{\fbckg}[1]{\usebackgroundtemplate{\includegraphics[height=\paperheight]{#1}}}%frame background
 
 \newcommand{\thankyou}{\pointedsl{thank you}} %% thank you slide
 

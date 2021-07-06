@@ -1,17 +1,120 @@
-\fbckg{blank} % Slide background image
+\fbckg{background/white}
 \begin{frame}
-    \misc{ % Anything can be placed inside the \misc{} command
-        Tables can be included with the \texttt{\textbackslash misc\{\}} command:
-        \begin{table}[h]
-            \begin{tabular}{l l l}
-                \toprule
-                \textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
-                \midrule
-                Treatment 1         & 0.0003262           & 0.562               \\
-                Treatment 2         & 0.0015681           & 0.910               \\
-                Treatment 3         & 0.0009271           & 0.296               \\
-                \bottomrule
-            \end{tabular}
-        \end{table}
+    \Huge
+    \misc{Modelos de transferencia radiativa}
+\end{frame}
+
+\begin{frame}
+    \misc{
+        \begin{minipage}{0.45\linewidth}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[height=3.2cm]{tuv_model.png}
+                \caption{Tropospheric Ultraviolet and Visible (TUV) radiation model. \cite{tuv_model_page}}
+            \end{figure}
+        \end{minipage}
+        \hspace{0.7cm}
+        \begin{minipage}{0.45\linewidth}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[height=3.2cm]{smarts_model.png}
+                \caption{Simple Model of the Atmospheric Radiative Transfer of Sunshine. \cite{SMARTS_model_page}}
+            \end{figure}
+        \end{minipage}}
+\end{frame}
+
+\begin{frame}
+    \misc{
+        \Huge
+        ¿Qué hacen estos modelos?
     }
+\end{frame}
+
+\begin{frame}
+    \misc{
+        \Huge
+        \begin{equation*}
+            \frac{d E }{dA dt} = I_\nu(\hat{k},\vec{r},t)\vec{k} \cdot \vec{n} d\Omega d\nu \cite{Carrami_2020}
+        \end{equation*}
+    }
+\end{frame}
+
+\begin{frame}
+    \misc{
+        \Huge
+        \begin{equation}
+            I(t) = \int\limits_{\lambda_0}^{\lambda_i} E(\lambda, t) d\lambda
+            \label{eq:integral}
+        \end{equation}
+    }
+\end{frame}
+
+\begin{frame}
+    \misc{
+        \begin{figure}
+            \centering
+            \includegraphics[width=11cm]{code_integral.png}
+            \caption{Implementación de la ecuación \ref{eq:integral}.}
+        \end{figure}
+    }
+\end{frame}
+
+\begin{frame}
+    \hspace{-0.75cm}
+    \begin{minipage}{0.45\linewidth}
+        \begin{figure}[H]
+            \color{black}
+            \centering
+            \includegraphics[height=4cm]{spectre.png}
+        \end{figure}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}{0.12\linewidth}
+        \Huge
+        \begin{equation*}
+            \color{black}
+            \rightarrow
+        \end{equation*}
+    \end{minipage}
+    \begin{minipage}{0.38\linewidth}
+        \begin{figure}[H]
+            \includegraphics[height=4cm]{Irradiance.png}
+        \end{figure}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \Huge
+    \misc{
+        Mediciones in situ
+    }
+\end{frame}
+
+
+\begin{frame}
+    \misc{
+        \begin{minipage}{0.47\linewidth}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[height=3.5cm,width=5cm]{sedema_web.png}
+                \caption{Página web de la SEDEMA. \cite{SEDEMA_page}}
+            \end{figure}
+        \end{minipage}
+        \begin{minipage}{0.47\linewidth}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[height=3.5cm,width=5cm]{sima_web.png}
+                \caption{Página web del SIMA. \cite{SIMA_page}}
+            \end{figure}
+        \end{minipage}
+    }
+\end{frame}
+
+\begin{frame}
+    \renewcommand{\yourowntexcol}{black}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=9cm,height=7cm]{season.png}
+        \caption{Mediciones de indice UV en la Ciudad de México. \cite{SEDEMA_page}}
+    \end{figure}
 \end{frame}

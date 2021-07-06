@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{tuv_model_page}
+NCAR, ``Atmospheric chemistry observations \& modeling.''
+  \url{https://www2.acom.ucar.edu/modeling/tropospheric-ultraviolet-and-visible-tuv-radiation-model},
+  7 2021.
+
+\bibitem{SMARTS_model_page}
+NREL, ``Smarts: Simple model of the atmospheric radiative transfer of
+  sunshine.'' \url{https://www.nrel.gov/grid/solar-resource/smarts.html}, 7
+  2021.
+
+\bibitem{Carrami_2020}
+A.~Carramiñana, {\em Transferencia radiativa}, ch.~2, pp.~1--24.
+\newblock INAOE, 8 2020.
+\newblock \url{https://www.inaoep.mx/~alberto/cursos/radiacion/cap2.pdf}.
+
+\bibitem{SEDEMA_page}
+``{Sistema de Monitoreo Atmosférico,Ciudad de México}.''
+  \url{http://www.aire.cdmx.gob.mx/default.php?opc=%27aKBhnmI=%27&opcion=bQ==}.
+
+\bibitem{SIMA_page}
+SIMA, ``Sistema integral de monitoreo ambiental.''
+  \url{http://aire.nl.gob.mx/}.
+
+\end{thebibliography}

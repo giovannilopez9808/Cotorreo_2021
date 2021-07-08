@@ -23,4 +23,5 @@ plt.grid(ls="--",
          alpha=0.5)
 plt.tight_layout()
 plt.savefig("{}{}".format(parameters["path graphics"],
-                          parameters["file graphics"]))
+                          parameters["file graphics"]),
+            dpi=400)

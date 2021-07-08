@@ -126,7 +126,8 @@ class plot_data:
                            fontsize=16)
         plt.tight_layout()
         plt.savefig("{}{}".format(self.parameters["path graphics"],
-                                  self.parameters["graphics name"]))
+                                  self.parameters["graphics name"]),
+                    dpi=400)
 
     def obtain_xticks(self):
         self.month_names = obtain_month_names()

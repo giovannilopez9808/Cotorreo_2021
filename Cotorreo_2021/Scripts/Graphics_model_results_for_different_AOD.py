@@ -49,6 +49,8 @@ for ax, file, RD in zip(axs, files, RD_list):
             marker='o')
     ax.set_xlim(parameters['Hour initial'],
                 parameters['Hour final'])
+    ax.set_xticks([hour for hour in range(parameters["Hour initial"],
+                                          parameters["Hour final"])])
     ax.set_ylim(0, 700)
     ax.grid(ls='--',
             color='#000000')
@@ -72,4 +74,5 @@ plt.subplots_adjust(left=0.1,
                     wspace=0.066,
                     hspace=0.158)
 plt.savefig('{}{}'.format(parameters['path graphics'],
-                          parameters['file graphics']))
+                          parameters['file graphics']),
+            dpi=400)

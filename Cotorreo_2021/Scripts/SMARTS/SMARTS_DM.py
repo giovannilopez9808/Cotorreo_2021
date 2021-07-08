@@ -6,10 +6,10 @@ Parametros para interactuar con el modelo, esto esta modificado para el uso
 de las estaciones noroeste y noreste del SIMA en el periodo 2015-2020
 """
 parameters = {
-    "file data": "Data_found_moderate.csv",
+    "file data": "Data_found_pristine.csv",
     "folder results": "Results_SMARTS_DM",
     "path stations": "../../Stations/",
-    "igas": 3,
+    "igas": 1,
     "stations": ["noreste"],
     "hour initial": 8,
     "hour final": 17,

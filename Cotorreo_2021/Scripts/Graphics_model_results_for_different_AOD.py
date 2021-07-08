@@ -42,11 +42,11 @@ for ax, file, AOD, RD in zip(axs, files, AOD_list, RD_list):
     ax.plot(SMARTS_hour, SMARTS_data,
             label='SMARTS',
             lw=3,
-            color='#800f2f',)
+            color='#ff79c6',)
     ax.plot(measurement_hour, measurement_data,
             label='Measurement',
             lw=3,
-            color='#013a63',
+            color='#6272a4',
             marker='o')
     ax.set_xlim(parameters['Hour initial'],
                 parameters['Hour final'])

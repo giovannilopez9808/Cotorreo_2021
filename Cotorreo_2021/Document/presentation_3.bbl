@@ -15,14 +15,6 @@ A.~Carramiñana, {\em Transferencia radiativa}, ch.~2, pp.~1--24.
 \newblock INAOE, 8 2020.
 \newblock \url{https://www.inaoep.mx/~alberto/cursos/radiacion/cap2.pdf}.
 
-\bibitem{SEDEMA_page}
-SEDEMA, ``{Sistema de Monitoreo Atmosférico,Ciudad de México}.''
-  \url{http://www.aire.cdmx.gob.mx/default.php?opc=%27aKBhnmI=%27&opcion=bQ==}.
-
-\bibitem{SIMA_page}
-SIMA, ``Sistema integral de monitoreo ambiental.''
-  \url{http://aire.nl.gob.mx/}.
-
 \bibitem{OMI_page}
 {EarthData}, ``{Ozone Monitoring Instrument (OMI)}.''
   \url{https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/omi-nrt}.
@@ -30,5 +22,13 @@ SIMA, ``Sistema integral de monitoreo ambiental.''
 \bibitem{Aura_page}
 {Goddard Space Flight Center}, ``{Aura Validation Data Center}.''
   \url{https://avdc.gstfc.nasa.gov/pub/data/satellite/Aura/OMI/V03/L2OVP/OMTO3/}.
+
+\bibitem{SEDEMA_page}
+SEDEMA, ``{Sistema de Monitoreo Atmosférico,Ciudad de México}.''
+  \url{http://www.aire.cdmx.gob.mx/default.php?opc=%27aKBhnmI=%27&opcion=bQ==}.
+
+\bibitem{SIMA_page}
+SIMA, ``Sistema integral de monitoreo ambiental.''
+  \url{http://aire.nl.gob.mx/}.
 
 \end{thebibliography}

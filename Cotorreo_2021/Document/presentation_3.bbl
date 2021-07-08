@@ -23,4 +23,12 @@ SEDEMA, ``{Sistema de Monitoreo Atmosférico,Ciudad de México}.''
 SIMA, ``Sistema integral de monitoreo ambiental.''
   \url{http://aire.nl.gob.mx/}.
 
+\bibitem{OMI_page}
+{EarthData}, ``{Ozone Monitoring Instrument (OMI)}.''
+  \url{https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/omi-nrt}.
+
+\bibitem{Aura_page}
+{Goddard Space Flight Center}, ``{Aura Validation Data Center}.''
+  \url{https://avdc.gstfc.nasa.gov/pub/data/satellite/Aura/OMI/V03/L2OVP/OMTO3/}.
+
 \end{thebibliography}

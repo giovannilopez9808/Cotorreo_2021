@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{fancyslides}[2013/04/23 my custom beamer slides class]
 
-\LoadClass{beamer}
+\LoadClass[aspectratio=169]{beamer}
 
 
 %%%% this is a~custom class for preparing presentations

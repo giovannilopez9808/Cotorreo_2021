@@ -22,11 +22,12 @@ parameters = {
     'Hour final': 17,
     'Fontsize': 14,
 }
-RD_list = np.loadtxt('{}{}'.format(parameters['path RD'],
-                                   parameters['file RD']),
-                     delimiter=',',
-                     usecols=6,
-                     skiprows=1)
+AOD_list, RD_list = np.loadtxt('{}{}'.format(parameters['path RD'],
+                                             parameters['file RD']),
+                               delimiter=',',
+                               usecols=[5, 6],
+                               skiprows=1,
+                               unpack=True)
 measurement_hour, measurement_data = read_data(parameters['path measurement'],
                                                parameters['file measurement'])
 files = sorted(os.listdir(parameters['path data']))
@@ -35,7 +36,7 @@ fig, axs = plt.subplots(2, 2,
                         sharey=True,
                         figsize=(8, 7))
 axs = np.reshape(axs, 4)
-for ax, file, RD in zip(axs, files, RD_list):
+for ax, file, AOD, RD in zip(axs, files, AOD_list, RD_list):
     SMARTS_hour, SMARTS_data = read_data(parameters['path data'],
                                          file)
     ax.plot(SMARTS_hour, SMARTS_data,
@@ -54,7 +55,7 @@ for ax, file, RD in zip(axs, files, RD_list):
     ax.set_ylim(0, 700)
     ax.grid(ls='--',
             color='#000000')
-    ax.set_title('RD = {}'.format(RD),
+    ax.set_title('AOD={}    RD={}'.format(AOD, RD),
                  fontsize=parameters['Fontsize'])
 fig.text(0.45, 0.025, 'Local time (h)',
          fontsize=parameters['Fontsize'])

@@ -1,6 +1,5 @@
 from functions import *
 import pandas as pd
-from math import ceil
 import numpy as np
 import os
 
@@ -231,16 +230,16 @@ class SMARTS_DR(SMARTS):
     def __init__(self, parameters={}, station=""):
         """
         Valores con los cuales se inicializa el modelo SMARTS
-        Descripción de las variables
-        hour_i       ----> Hora inicial para correr el modelo
-        hour_f       ----> Hora final para correr el modelo
-        lon_ i       ----> Longitud de onda inicial para el modelo
-        lon_ f       ----> Longitud de onda final para el modelo
-        delta_lon    ----> Número de longitudes de onda que se saltara
+        ### inputs
+        + hour_i       ----> Hora inicial para correr el modelo
+        + hour_f       ----> Hora final para correr el modelo
+        + lon_ i       ----> Longitud de onda inicial para el modelo
+        + lon_ f       ----> Longitud de onda final para el modelo
+        + delta_lon    ----> Número de longitudes de onda que se saltara
                            el resultado del modelo
-        total_minute ----> Total minutos que correra el modelo
-        RD_lim       ----> RD al cual se quiere llegar
-        RD_delta     ----> Mas menos del RD
+        + total_minute ----> Total minutos que correra el modelo
+        + RD_lim       ----> RD al cual se quiere llegar
+        + RD_delta     ----> Mas menos del RD
         """
         SMARTS.__init__(self,
                         parameters=parameters,

@@ -13,6 +13,8 @@
 \definecolor{citecolor}{rgb}{.12,.54,.11}
 \definecolor{linkcolor}{RGB}{1, 79, 134}
 \definecolor{urlcolor}{RGB}{116,216,255}
+\definecolor{background}{RGB}{98,114,164}
+\definecolor{figurecaption}{RGB}{68,71,90}
 \hypersetup{
     breaklinks=true,
     colorlinks=true,
@@ -36,6 +38,8 @@
 \setbeamertemplate{bibliography item}{}
 % Ennumerate references
 \setbeamertemplate{bibliography item}{\insertbiblabel}
+% Colorized captions figure
+\setbeamercolor{caption name}{fg=figurecaption}
 %------------
 % COLORS
 % The following colors are predefined in this class: white, black, gray, blue, green and orange
@@ -44,6 +48,6 @@
 % Opacity (transparency) for the structure elements (boxes and circles)
 \newcommand{\structureopacity}{0.75}
 % Set the color of structure elements (boxes and circles)
-\newcommand{\strcolor}{blue}
+\newcommand{\strcolor}{background}
 % Set the text color
 \newcommand{\yourowntexcol}{white}

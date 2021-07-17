@@ -8,7 +8,7 @@ de las estaciones noroeste y noreste del SIMA en el periodo 2015-2020
 parameters = {
     "file data": "test.csv",
     "folder results": "Results_SMARTS_DM",
-    "path stations": "../../Data/",
+    "path stations": "../../Data/Mty/",
     "igas": 3,
     "stations": ["noreste"],
     "hour initial": 8,

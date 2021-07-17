@@ -4,7 +4,7 @@ Parametros para interactuar con el modelo, esto esta modificado
 para el uso de las estaciones SIMA en el periodo 2015-2020
 """
 parameters = {
-    "path stations": "../../Stations/",
+    "path stations": "../../Data/Mty/Stations/",
     "path results": "Results_SMARTS_DR_",
     "file results": "Data_found_",
     "file data": "datos.txt",

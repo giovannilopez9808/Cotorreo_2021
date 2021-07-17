@@ -11,9 +11,9 @@ def read_data(path='', file=''):
 
 
 parameters = {
-    'path data': '../Data/noreste/Results_SMARTS_DM/',
-    'path RD': '../Data/noreste/',
-    'path measurement': '../Stations/noreste/Mediciones/',
+    'path data': '../Data/Mty/noreste/Results_SMARTS_DM/',
+    'path RD': '../Data/Mty/noreste/',
+    'path measurement': '../Data/Mty/Stations/noreste/Mediciones/',
     'path graphics': '../Graphics/',
     'file measurement': '150111.txt',
     'file RD': 'test.csv',

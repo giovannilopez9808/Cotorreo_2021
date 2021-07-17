@@ -5,7 +5,7 @@ para el uso de las estaciones noroeste y noreste del SIMA en el periodo
 2015-2020
 """
 parameters = {
-    "path stations": "../../Stations/",
+    "path stations": "../../Data/Mty/Stations/",
     "path results": "Results_SMARTS_DR_SSAAER_",
     "file results": "Data_found_SSAAER_",
     "file data": "datos.txt",

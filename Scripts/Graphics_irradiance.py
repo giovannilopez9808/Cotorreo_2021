@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 parameters = {
-    "path data": "../Stations/noreste/Results_SMARTS_DM/",
+    "path data": "../Data/Mty/Stations/noreste/Results_SMARTS_DM/",
     "path graphics": "../Graphics/",
     "file data": "150111.txt",
     "file graphics": "Irradiance.png"

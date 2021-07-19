@@ -9,7 +9,7 @@ def read_data(isdavis, parameters):
                           parameters["day final"])
     else:
         data = pd.read_csv("{}{}".format(parameters["path data"],
-                                         parameters["file measurements"]))
+                                         parameters["file No Davis"]))
         data = date_format(data)
     return data
 
@@ -54,7 +54,7 @@ parameters = {
     "path data": "../../Data/Rosario/",
     "file data": "dates_data.csv",
     "file Davis": "data_Davis.csv",
-    "file measurements": "dates_Maximum.csv",
+    "file No Davis": "dates_Maximum.csv",
     "path results": "../../Data/Rosario/TUV/",
     "day initial": "2020-05-01",
     "day final": "2020-09-30",

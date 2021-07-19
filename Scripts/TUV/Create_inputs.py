@@ -50,9 +50,12 @@ file_TUV = open(inputs["path input TUV"]+inputs["file input TUV"],
                 "w")
 file_TUV.write("Date,Ozone\n")
 for date in Ozone_data.index:
-    if inputs["Use OMI Ozone"]:
-        ozone_value = Ozone_data[date]
-    else:
+    try:
+        if inputs["Use OMI Ozone"]:
+            ozone_value = Ozone_data[date]
+        else:
+            ozone_value = inputs["Ozone value"]
+    except:
         ozone_value = inputs["Ozone value"]
     date = date.date()
     file_TUV.write("{},{:.2f}\n".format(date,

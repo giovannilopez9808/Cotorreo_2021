@@ -30,16 +30,16 @@ T  2 Previtamin-D3 (CIE 2006)
  DATAE1/SUN/neckel.flx                   
  DATAE1/SUN/sao2010.solref.converted     
  aerosols:  Elterman (1968) continental profile
-step =    1 sza =    53.585 Earth-sun factor =  0.9754885
-step =    2 sza =    54.193 Earth-sun factor =  0.9754899
-step =    3 sza =    54.820 Earth-sun factor =  0.9754913
-step =    4 sza =    55.465 Earth-sun factor =  0.9754929
-step =    5 sza =    56.129 Earth-sun factor =  0.9754943
-step =    6 sza =    56.810 Earth-sun factor =  0.9754943
-step =    7 sza =    57.507 Earth-sun factor =  0.9754956
-step =    8 sza =    58.220 Earth-sun factor =  0.9754970
-step =    9 sza =    58.948 Earth-sun factor =  0.9754984
-step =   10 sza =    59.691 Earth-sun factor =  0.9755000
-step =   11 sza =    60.448 Earth-sun factor =  0.9755014
-step =   12 sza =    61.219 Earth-sun factor =  0.9755028
-step =   13 sza =    62.003 Earth-sun factor =  0.9755042
+step =    1 sza =    83.660 Earth-sun factor =  0.9755340
+step =    2 sza =    84.645 Earth-sun factor =  0.9755353
+step =    3 sza =    85.634 Earth-sun factor =  0.9755368
+step =    4 sza =    86.628 Earth-sun factor =  0.9755384
+step =    5 sza =    87.625 Earth-sun factor =  0.9755398
+step =    6 sza =    88.627 Earth-sun factor =  0.9755398
+step =    7 sza =    89.632 Earth-sun factor =  0.9755411
+step =    8 sza =    90.641 Earth-sun factor =  0.9755425
+step =    9 sza =    91.653 Earth-sun factor =  0.9755439
+step =   10 sza =    92.668 Earth-sun factor =  0.9755455
+step =   11 sza =    93.686 Earth-sun factor =  0.9755469
+step =   12 sza =    94.707 Earth-sun factor =  0.9755483
+step =   13 sza =    95.731 Earth-sun factor =  0.9755496

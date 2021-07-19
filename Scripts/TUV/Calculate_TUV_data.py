@@ -16,9 +16,9 @@ def format_data(data=pd.DataFrame()):
 
 
 def print_header_terminal(date):
-    print("\n")
-    print("="*50)
-    print("Calculando dia {}".format(date.date()))
+    text = "Calculando dia {}".format(date.date())
+    print("="*len(text))
+    print(text)
 
 
 parameters = {"path data": "../../Data/Rosario/",
@@ -46,4 +46,4 @@ for date in data.index:
             file.write("{},{}\n".format(TUV_hour,
                                         TUV_value))
     file.close()
-print("="*50)
+print("\n")
